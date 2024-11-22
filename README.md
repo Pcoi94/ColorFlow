@@ -1,6 +1,6 @@
 # ColorFlow
 
-ColorFlow is a powerful Python library designed to transform text coloration with advanced gradient and color manipulation capabilities.
+A Python library for creating stunning color gradients, including full-color, and applying them to text. It supports both linear and circular gradients with comprehensive color management tools.
 
 ## Installation
 
