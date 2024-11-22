@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "ColorFlow"
+version = "1.0.0"
+description = "A Python library for creating and applying full-color, linear, and circular gradients to text with easy color management."
+authors = ["Pcoi94"]
+readme = "README.md"
+license = "MIT"
+keywords = [
+    "python",
+    "color",
+    "flow",
+    "easy",
+    "cmd",
+    "app",
+    "manage",
+    "text",
+    "colour",
+    "ansi",
+    "terminal",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+typing = ">=3.7.4.3"
+dataclasses = ">=0.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
