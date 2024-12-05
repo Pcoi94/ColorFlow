@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="colorflow",
+    name="ColorFlow",
     version="1.0.0",
     
     description="A Python library for creating and applying full-color, linear, and circular gradients to text with easy color management.",
