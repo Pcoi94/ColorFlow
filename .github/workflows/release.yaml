@@ -42,6 +42,7 @@ jobs:
 
   check_pypi:
     runs-on: ubuntu-latest
+    needs: details
     steps:
       - name: Fetch information from PyPI
         run: |
