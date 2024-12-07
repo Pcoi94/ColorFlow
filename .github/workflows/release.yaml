@@ -41,7 +41,6 @@ jobs:
           fi
 
   check_pypi:
-    needs: details
     runs-on: ubuntu-latest
     steps:
       - name: Fetch information from PyPI
